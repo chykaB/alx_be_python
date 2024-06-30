@@ -18,4 +18,4 @@ elif check == "C":
     
     
 else:
-    print("Invalid input. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
+    print("Invalid temperature. Please enter a numeric value.")
