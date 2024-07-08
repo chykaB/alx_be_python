@@ -6,14 +6,14 @@ class Book:
         self.author = author
         self._is_checked_out = False
 
-    def Check_out(self):
+    def check_out(self):
         """Marks the book as checked out if it is not already checked out."""
         if not self._is_checked_out:
             self._is_checked_out = True
             return True
         return False
 
-    def Return_book(self):
+    def return_book(self):
         """Marks the book as returned if it is currently checked out."""
         if self._is_checked_out:
             self._is_checked_out = False
